@@ -28,5 +28,5 @@ There is currently an `example.scss` file to demonstrate.
 * CSS is generated and put into directory `public/css`
 * git ignore is added to the `public/css` directory so you don't check in your generated css code. You only check in your source code.
 * `Gruntfile.js` has a few options that can be tweaked based on what you want:
- ** `style`: currently set to `expanded` but `nested`, `compact` & `compressed` are valid.
- ** lineNumber: `true` outputs the line number from the `sass` file that generated the css. Helpful when learning or debugging.
+   * `style`: currently set to `expanded` but `nested`, `compact` & `compressed` are valid.
+   * lineNumber: `true` outputs the line number from the `sass` file that generated the css. Helpful when learning or debugging.

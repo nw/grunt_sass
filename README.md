@@ -21,6 +21,45 @@ This will run forever. You can use `Ctrl-C` to exit. Anytime you save a change t
 
 There is currently an `example.scss` file to demonstrate. 
 
+### Example
+
+`example.scss`
+```scss
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: #FFF;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  #id {
+    background: $bg-color;
+
+    .widget {
+      font: 85% $font-stack;
+    }
+  }
+
+}
+```
+
+becomes `example.css`
+```css
+/* line 5, ../../src/sass/example.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333333;
+}
+/* line 9, ../../src/sass/example.scss */
+body #id {
+  background: white;
+}
+/* line 12, ../../src/sass/example.scss */
+body #id .widget {
+  font: 85% Helvetica, sans-serif;
+}
+```
 
 ### Explanation
 

@@ -1,0 +1,17 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: #FFF;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  #id {
+    background: $bg-color;
+
+    .widget {
+      font: 85% $font-stack;
+    }
+  }
+
+}
